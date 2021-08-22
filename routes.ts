@@ -1,6 +1,6 @@
 import { Router } from 'express';
 
-import * as cakesDAO from './cakesDAO';
+import cakesDAO from './cakesDAO';
 
 const route = Router();
 

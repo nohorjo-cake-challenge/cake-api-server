@@ -48,3 +48,9 @@ export async function deleteCake(id: ICake['id']): Promise<void> {
 
     writeCakesFile(cakes);
 }
+
+export default {
+  getAllCakes,
+  addCake,
+  deleteCake,
+};
